@@ -11,7 +11,7 @@ const ExpenseItem = (props) => {
   // It is a React Hook.
   // useState() always returns two things. The Value, and the Function that Can Update that Value
   // let title = props.title;
-  const clickHandler = () => {
+const clickHandler = () => {
     // useState() ==> Not even here, this is a nested function call.
     setTitle('Updated!');
     // Calling this function is important to ensure a Dynamic update to the value of the title.
